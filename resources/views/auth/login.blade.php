@@ -20,8 +20,8 @@
 
                 <!-- Login Form -->
                 <form>
-                    <input type="text" id="login" class="fadeIn second" name="login" placeholder="इमेल">
-                    <input type="password" id="login_password" class="fadeIn third" name="login" placeholder="पासवर्ड">
+                    <input type="text" id="login" class="fadeIn second" name="email" placeholder="इमेल">
+                    <input type="password" id="login_password" class="fadeIn third" name="password" placeholder="पासवर्ड">
                     <button type="submit" class="fadeIn fourth btn btn-primary mb-2"> {{ __('लग-इन') }}</button>
                 </form>
 
